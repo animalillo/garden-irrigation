@@ -7,7 +7,7 @@ Of course this system  could have many other uses besides irrigation control. Ba
 Hacking this code to use the sensor data to perform actions based on the sensor output shoulnd't be too hard. I might do that in the future, or maybe adding an earth humidity sensor and performing actions inresponse to that, i might do that some day.
 
 ###Features:
-Ritht now the hardware consists on an arduino, ethernet shield + micro SD card reader, an RTC module that happens to have both, RTC and EEPROM ICs and an humidity sensor that has built-in thermometer.
+Right now the hardware consists on an arduino, ethernet shield + micro SD card reader, an RTC module that happens to have both, RTC and EEPROM ICs and an humidity sensor that has built-in thermometer.
 
 - It logs the temperature and humidity to an sd file.
 - Loads the network configuration from a file called net.cfg on the root of the micro SD card.
@@ -106,3 +106,8 @@ This case will work with the provided hardware specs, but I can't warrant that i
 The case has space for a prototyping board and an extra board on top of this, so you can make a pretty circuit and integrate all the components.
 
 I made the case so it's rain resistant, but that will depend on your 3D printer, material and printer configuration. Check the results that come from your printer!
+
+#License
+The code is under the [GPL V3](http://www.gnu.org/licenses/gpl.html) license created by Marcos Zuriaga, unless otherwise specified on the files.
+
+The case model is under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, also created by Marcos Zuriaga.
