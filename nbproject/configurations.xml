@@ -1,0 +1,2549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="/home/wolfi/Descargas/arduino-1.6.7" name="0">
+      <df name="hardware">
+        <df name="arduino">
+          <df name="avr">
+            <df name="bootloaders">
+              <df name="atmega">
+                <in>ATmegaBOOT_168.c</in>
+              </df>
+              <df name="atmega8">
+                <in>ATmegaBOOT.c</in>
+              </df>
+              <df name="bt">
+                <in>ATmegaBOOT_168.c</in>
+              </df>
+              <df name="caterina">
+                <in>Caterina.c</in>
+                <in>Descriptors.c</in>
+              </df>
+              <df name="caterina-Arduino_Robot">
+                <in>Caterina.c</in>
+                <in>Descriptors.c</in>
+              </df>
+              <df name="caterina-LilyPadUSB">
+                <in>Caterina.c</in>
+                <in>Descriptors.c</in>
+              </df>
+              <df name="lilypad">
+                <df name="src">
+                  <in>ATmegaBOOT.c</in>
+                </df>
+              </df>
+              <df name="optiboot">
+                <in>optiboot.c</in>
+              </df>
+              <df name="stk500v2">
+                <in>stk500boot.c</in>
+              </df>
+            </df>
+            <df name="cores">
+              <df name="arduino">
+                <in>CDC.cpp</in>
+                <in>HardwareSerial.cpp</in>
+                <in>HardwareSerial0.cpp</in>
+                <in>HardwareSerial1.cpp</in>
+                <in>HardwareSerial2.cpp</in>
+                <in>HardwareSerial3.cpp</in>
+                <in>IPAddress.cpp</in>
+                <in>PluggableUSB.cpp</in>
+                <in>Print.cpp</in>
+                <in>Stream.cpp</in>
+                <in>Tone.cpp</in>
+                <in>USBCore.cpp</in>
+                <in>WInterrupts.c</in>
+                <in>WMath.cpp</in>
+                <in>WString.cpp</in>
+                <in>abi.cpp</in>
+                <in>hooks.c</in>
+                <in>main.cpp</in>
+                <in>new.cpp</in>
+                <in>wiring.c</in>
+                <in>wiring_analog.c</in>
+                <in>wiring_digital.c</in>
+                <in>wiring_pulse.S</in>
+                <in>wiring_pulse.c</in>
+                <in>wiring_shift.c</in>
+              </df>
+            </df>
+            <df name="firmwares">
+              <df name="atmegaxxu2">
+                <df name="arduino-usbdfu">
+                  <in>Arduino-usbdfu.c</in>
+                  <in>Descriptors.c</in>
+                </df>
+                <df name="arduino-usbserial">
+                  <in>Arduino-usbserial.c</in>
+                  <in>Descriptors.c</in>
+                </df>
+              </df>
+              <df name="wifishield">
+                <df name="wifi_dnld">
+                  <df name="src">
+                    <df name="SOFTWARE_FRAMEWORK">
+                      <df name="BOARDS">
+                        <df name="ARDUINO">
+                          <in>led.c</in>
+                        </df>
+                        <df name="EVK1105">
+                          <in>led.c</in>
+                        </df>
+                      </df>
+                      <df name="COMPONENTS">
+                        <df name="MEMORY">
+                          <df name="DATA_FLASH">
+                            <df name="AT45DBX">
+                              <in>at45dbx.c</in>
+                              <in>at45dbx_mem.c</in>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="DRIVERS">
+                        <df name="FLASHC">
+                          <in>flashc.c</in>
+                        </df>
+                        <df name="GPIO">
+                          <in>gpio.c</in>
+                        </df>
+                        <df name="INTC">
+                          <in>intc.c</in>
+                        </df>
+                        <df name="PM">
+                          <in>pm.c</in>
+                          <in>pm_conf_clocks.c</in>
+                          <in>power_clocks_lib.c</in>
+                        </df>
+                        <df name="SPI">
+                          <in>spi.c</in>
+                        </df>
+                        <df name="USART">
+                          <in>usart.c</in>
+                        </df>
+                      </df>
+                      <df name="SERVICES">
+                        <df name="MEMORY">
+                          <df name="CTRL_ACCESS">
+                            <in>ctrl_access.c</in>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="UTILS">
+                        <df name="DEBUG">
+                          <in>debug.c</in>
+                          <in>print_funcs.c</in>
+                        </df>
+                      </df>
+                    </df>
+                    <in>clocks.c</in>
+                    <in>flash_fw.c</in>
+                    <in>nor_flash.c</in>
+                    <in>printf-stdarg.c</in>
+                    <in>startup.c</in>
+                  </df>
+                </df>
+                <df name="wifiHD">
+                  <df name="src">
+                    <df name="SOFTWARE_FRAMEWORK">
+                      <df name="BOARDS">
+                        <df name="ARDUINO">
+                          <in>led.c</in>
+                        </df>
+                        <df name="EVK1105">
+                          <in>led.c</in>
+                        </df>
+                      </df>
+                      <df name="COMPONENTS">
+                        <df name="MEMORY">
+                          <df name="DATA_FLASH">
+                            <df name="AT45DBX">
+                              <in>at45dbx.c</in>
+                              <in>at45dbx_mem.c</in>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="DRIVERS">
+                        <df name="EBI">
+                          <df name="SMC">
+                            <in>smc.c</in>
+                          </df>
+                        </df>
+                        <df name="EIC">
+                          <in>eic.c</in>
+                        </df>
+                        <df name="FLASHC">
+                          <in>flashc.c</in>
+                        </df>
+                        <df name="GPIO">
+                          <in>gpio.c</in>
+                        </df>
+                        <df name="INTC">
+                          <in>intc.c</in>
+                        </df>
+                        <df name="PDCA">
+                          <in>pdca.c</in>
+                        </df>
+                        <df name="PM">
+                          <in>pm.c</in>
+                          <in>pm_conf_clocks.c</in>
+                          <in>power_clocks_lib.c</in>
+                        </df>
+                        <df name="RTC">
+                          <in>rtc.c</in>
+                        </df>
+                        <df name="SPI">
+                          <in>spi.c</in>
+                        </df>
+                        <df name="TC">
+                          <in>tc.c</in>
+                        </df>
+                        <df name="USART">
+                          <in>usart.c</in>
+                        </df>
+                      </df>
+                      <df name="SERVICES">
+                        <df name="DELAY">
+                          <in>delay.c</in>
+                        </df>
+                        <df name="LWIP">
+                          <df name="lwip-1.3.2">
+                            <df name="src">
+                              <df name="core">
+                                <df name="ipv4">
+                                  <in>autoip.c</in>
+                                  <in>icmp.c</in>
+                                  <in>igmp.c</in>
+                                  <in>inet.c</in>
+                                  <in>inet_chksum.c</in>
+                                  <in>ip.c</in>
+                                  <in>ip_addr.c</in>
+                                  <in>ip_frag.c</in>
+                                </df>
+                                <in>dhcp.c</in>
+                                <in>dns.c</in>
+                                <in>init.c</in>
+                                <in>mem.c</in>
+                                <in>memp.c</in>
+                                <in>netif.c</in>
+                                <in>pbuf.c</in>
+                                <in>raw.c</in>
+                                <in>stats.c</in>
+                                <in>tcp.c</in>
+                                <in>tcp_in.c</in>
+                                <in>tcp_out.c</in>
+                                <in>udp.c</in>
+                              </df>
+                              <df name="netif">
+                                <in>etharp.c</in>
+                                <in>loopif.c</in>
+                              </df>
+                            </df>
+                          </df>
+                          <df name="lwip-port-1.3.2">
+                            <df name="HD">
+                              <df name="if">
+                                <df name="netif">
+                                  <in>wlif.c</in>
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                        <df name="MEMORY">
+                          <df name="CTRL_ACCESS">
+                            <in>ctrl_access.c</in>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="UTILS">
+                        <df name="DEBUG">
+                          <in>debug.c</in>
+                          <in>print_funcs.c</in>
+                        </df>
+                      </df>
+                    </df>
+                    <in>ard_spi.c</in>
+                    <in>ard_tcp.c</in>
+                    <in>ard_utils.c</in>
+                    <in>avr32_spi.c</in>
+                    <in>board_init.c</in>
+                    <in>cmd_wl.c</in>
+                    <in>console.c</in>
+                    <in>fw_download_extflash.c</in>
+                    <in>lwip_setup.c</in>
+                    <in>main.c</in>
+                    <in>nvram.c</in>
+                    <in>owl_os.c</in>
+                    <in>ping.c</in>
+                    <in>printf-stdarg.c</in>
+                    <in>timer.c</in>
+                    <in>util.c</in>
+                    <in>wl_cm.c</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="libraries">
+              <df name="HID">
+                <in>HID.cpp</in>
+              </df>
+              <df name="SoftwareSerial">
+                <in>SoftwareSerial.cpp</in>
+              </df>
+              <df name="SPI">
+                <in>SPI.cpp</in>
+              </df>
+              <df name="Wire">
+                <df name="utility">
+                  <in>twi.c</in>
+                </df>
+                <in>Wire.cpp</in>
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="libraries">
+        <df name="BME280">
+          <in>BME280_MOD-1022.cpp</in>
+        </df>
+        <df name="Bridge">
+          <df name="src">
+            <in>Bridge.cpp</in>
+            <in>BridgeClient.cpp</in>
+            <in>BridgeServer.cpp</in>
+            <in>BridgeUdp.cpp</in>
+            <in>Console.cpp</in>
+            <in>FileIO.cpp</in>
+            <in>HttpClient.cpp</in>
+            <in>Mailbox.cpp</in>
+            <in>Process.cpp</in>
+          </df>
+        </df>
+        <df name="Esplora">
+          <df name="src">
+            <in>Esplora.cpp</in>
+          </df>
+        </df>
+        <df name="Ethernet">
+          <df name="src">
+            <df name="utility">
+              <in>socket.cpp</in>
+              <in>w5100.cpp</in>
+            </df>
+            <in>Dhcp.cpp</in>
+            <in>Dns.cpp</in>
+            <in>Ethernet.cpp</in>
+            <in>EthernetClient.cpp</in>
+            <in>EthernetServer.cpp</in>
+            <in>EthernetUdp.cpp</in>
+          </df>
+        </df>
+        <df name="Firmata">
+          <df name="utility">
+            <in>EthernetClientStream.cpp</in>
+          </df>
+          <in>Firmata.cpp</in>
+        </df>
+        <df name="GSM">
+          <df name="src">
+            <in>GSM3CircularBuffer.cpp</in>
+            <in>GSM3MobileAccessProvider.cpp</in>
+            <in>GSM3MobileCellManagement.cpp</in>
+            <in>GSM3MobileClientProvider.cpp</in>
+            <in>GSM3MobileClientService.cpp</in>
+            <in>GSM3MobileDataNetworkProvider.cpp</in>
+            <in>GSM3MobileMockupProvider.cpp</in>
+            <in>GSM3MobileNetworkProvider.cpp</in>
+            <in>GSM3MobileNetworkRegistry.cpp</in>
+            <in>GSM3MobileSMSProvider.cpp</in>
+            <in>GSM3MobileServerProvider.cpp</in>
+            <in>GSM3MobileServerService.cpp</in>
+            <in>GSM3MobileVoiceProvider.cpp</in>
+            <in>GSM3SMSService.cpp</in>
+            <in>GSM3ShieldV1.cpp</in>
+            <in>GSM3ShieldV1AccessProvider.cpp</in>
+            <in>GSM3ShieldV1BandManagement.cpp</in>
+            <in>GSM3ShieldV1BaseProvider.cpp</in>
+            <in>GSM3ShieldV1CellManagement.cpp</in>
+            <in>GSM3ShieldV1ClientProvider.cpp</in>
+            <in>GSM3ShieldV1DataNetworkProvider.cpp</in>
+            <in>GSM3ShieldV1DirectModemProvider.cpp</in>
+            <in>GSM3ShieldV1ModemCore.cpp</in>
+            <in>GSM3ShieldV1ModemVerification.cpp</in>
+            <in>GSM3ShieldV1MultiClientProvider.cpp</in>
+            <in>GSM3ShieldV1MultiServerProvider.cpp</in>
+            <in>GSM3ShieldV1PinManagement.cpp</in>
+            <in>GSM3ShieldV1SMSProvider.cpp</in>
+            <in>GSM3ShieldV1ScanNetworks.cpp</in>
+            <in>GSM3ShieldV1ServerProvider.cpp</in>
+            <in>GSM3ShieldV1VoiceProvider.cpp</in>
+            <in>GSM3SoftSerial.cpp</in>
+            <in>GSM3VoiceCallService.cpp</in>
+          </df>
+        </df>
+        <df name="Keyboard">
+          <df name="src">
+            <in>Keyboard.cpp</in>
+          </df>
+        </df>
+        <df name="LiquidCrystal">
+          <df name="src">
+            <in>LiquidCrystal.cpp</in>
+          </df>
+        </df>
+        <df name="Mouse">
+          <df name="src">
+            <in>Mouse.cpp</in>
+          </df>
+        </df>
+        <df name="OPT3001">
+          <df name="src">
+            <in>Opt3001.cpp</in>
+          </df>
+        </df>
+        <df name="Robot_Control">
+          <df name="src">
+            <df name="utility">
+              <in>Adafruit_GFX.cpp</in>
+              <in>RobotTextManager.cpp</in>
+              <in>VirtualKeyboard.cpp</in>
+            </df>
+            <in>ArduinoRobot.cpp</in>
+            <in>Arduino_LCD.cpp</in>
+            <in>Compass.cpp</in>
+            <in>EEPROM_I2C.cpp</in>
+            <in>EasyTransfer2.cpp</in>
+            <in>Fat16.cpp</in>
+            <in>Melody.cpp</in>
+            <in>Motors.cpp</in>
+            <in>Multiplexer.cpp</in>
+            <in>RobotSdCard.cpp</in>
+            <in>SdCard.cpp</in>
+            <in>Sensors.cpp</in>
+            <in>Squawk.cpp</in>
+            <in>SquawkSD.cpp</in>
+            <in>communication.cpp</in>
+            <in>glcdfont.c</in>
+            <in>helper.cpp</in>
+            <in>information.cpp</in>
+            <in>keyboard.cpp</in>
+            <in>lcd.cpp</in>
+          </df>
+        </df>
+        <df name="Robot_Motor">
+          <df name="src">
+            <in>ArduinoRobotMotorBoard.cpp</in>
+            <in>EasyTransfer2.cpp</in>
+            <in>Multiplexer.cpp</in>
+            <in>lineFollow.cpp</in>
+          </df>
+        </df>
+        <df name="RobotIRremote">
+          <df name="src">
+            <in>IRremote.cpp</in>
+            <in>IRremoteTools.cpp</in>
+          </df>
+        </df>
+        <df name="SD">
+          <df name="src">
+            <df name="utility">
+              <in>Sd2Card.cpp</in>
+              <in>SdFile.cpp</in>
+              <in>SdVolume.cpp</in>
+            </df>
+            <in>File.cpp</in>
+            <in>SD.cpp</in>
+          </df>
+        </df>
+        <df name="Servo">
+          <df name="src">
+            <df name="avr">
+              <in>Servo.cpp</in>
+            </df>
+            <df name="sam">
+              <in>Servo.cpp</in>
+            </df>
+            <df name="samd">
+              <in>Servo.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="SpacebrewYun">
+          <df name="src">
+            <in>SpacebrewYun.cpp</in>
+          </df>
+        </df>
+        <df name="Stepper">
+          <df name="src">
+            <in>Stepper.cpp</in>
+          </df>
+        </df>
+        <df name="Temboo">
+          <df name="src">
+            <df name="utility">
+              <in>BaseFormatter.cpp</in>
+              <in>ChoreoInput.cpp</in>
+              <in>ChoreoInputFormatter.cpp</in>
+              <in>ChoreoInputSet.cpp</in>
+              <in>ChoreoOutput.cpp</in>
+              <in>ChoreoOutputFormatter.cpp</in>
+              <in>ChoreoOutputSet.cpp</in>
+              <in>ChoreoPreset.cpp</in>
+              <in>ChoreoPresetFormatter.cpp</in>
+              <in>CoapMessageLayer.cpp</in>
+              <in>CoapMsg.cpp</in>
+              <in>CoapRRLayer.cpp</in>
+              <in>DataFormatter.cpp</in>
+              <in>MQTTConnectClient.c</in>
+              <in>MQTTConnectServer.c</in>
+              <in>MQTTDeserializePublish.c</in>
+              <in>MQTTFormat.c</in>
+              <in>MQTTPacket.c</in>
+              <in>MQTTSerializePublish.c</in>
+              <in>MQTTSubscribeClient.c</in>
+              <in>MQTTSubscribeServer.c</in>
+              <in>MQTTUnsubscribeClient.c</in>
+              <in>MQTTUnsubscribeServer.c</in>
+              <in>TembooCoAPSession.cpp</in>
+              <in>TembooGlobal.c</in>
+              <in>TembooMQTTSession.cpp</in>
+              <in>TembooSession.cpp</in>
+              <in>tmbhmac.cpp</in>
+              <in>tmbmd5.cpp</in>
+            </df>
+            <in>Temboo.cpp</in>
+            <in>TembooCoAPEdgeDevice.cpp</in>
+            <in>TembooMQTTEdgeDevice.cpp</in>
+          </df>
+        </df>
+        <df name="TFT">
+          <df name="src">
+            <df name="utility">
+              <in>Adafruit_GFX.cpp</in>
+              <in>Adafruit_ST7735.cpp</in>
+              <in>glcdfont.c</in>
+            </df>
+            <in>TFT.cpp</in>
+          </df>
+        </df>
+        <df name="WiFi">
+          <df name="extras">
+            <df name="wifi_dnld">
+              <df name="src">
+                <df name="SOFTWARE_FRAMEWORK">
+                  <df name="BOARDS">
+                    <df name="ARDUINO">
+                      <in>led.c</in>
+                    </df>
+                    <df name="EVK1105">
+                      <in>led.c</in>
+                    </df>
+                  </df>
+                  <df name="COMPONENTS">
+                    <df name="MEMORY">
+                      <df name="DATA_FLASH">
+                        <df name="AT45DBX">
+                          <in>at45dbx.c</in>
+                          <in>at45dbx_mem.c</in>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="DRIVERS">
+                    <df name="FLASHC">
+                      <in>flashc.c</in>
+                    </df>
+                    <df name="GPIO">
+                      <in>gpio.c</in>
+                    </df>
+                    <df name="INTC">
+                      <in>intc.c</in>
+                    </df>
+                    <df name="PM">
+                      <in>pm.c</in>
+                      <in>pm_conf_clocks.c</in>
+                      <in>power_clocks_lib.c</in>
+                    </df>
+                    <df name="SPI">
+                      <in>spi.c</in>
+                    </df>
+                    <df name="USART">
+                      <in>usart.c</in>
+                    </df>
+                  </df>
+                  <df name="SERVICES">
+                    <df name="MEMORY">
+                      <df name="CTRL_ACCESS">
+                        <in>ctrl_access.c</in>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="UTILS">
+                    <df name="DEBUG">
+                      <in>debug.c</in>
+                      <in>print_funcs.c</in>
+                    </df>
+                  </df>
+                </df>
+                <in>clocks.c</in>
+                <in>flash_fw.c</in>
+                <in>nor_flash.c</in>
+                <in>printf-stdarg.c</in>
+                <in>startup.c</in>
+              </df>
+            </df>
+            <df name="wifiHD">
+              <df name="src">
+                <df name="SOFTWARE_FRAMEWORK">
+                  <df name="BOARDS">
+                    <df name="ARDUINO">
+                      <in>led.c</in>
+                    </df>
+                    <df name="EVK1105">
+                      <in>led.c</in>
+                    </df>
+                  </df>
+                  <df name="COMPONENTS">
+                    <df name="MEMORY">
+                      <df name="DATA_FLASH">
+                        <df name="AT45DBX">
+                          <in>at45dbx.c</in>
+                          <in>at45dbx_mem.c</in>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="DRIVERS">
+                    <df name="EBI">
+                      <df name="SMC">
+                        <in>smc.c</in>
+                      </df>
+                    </df>
+                    <df name="EIC">
+                      <in>eic.c</in>
+                    </df>
+                    <df name="FLASHC">
+                      <in>flashc.c</in>
+                    </df>
+                    <df name="GPIO">
+                      <in>gpio.c</in>
+                    </df>
+                    <df name="INTC">
+                      <in>intc.c</in>
+                    </df>
+                    <df name="PDCA">
+                      <in>pdca.c</in>
+                    </df>
+                    <df name="PM">
+                      <in>pm.c</in>
+                      <in>pm_conf_clocks.c</in>
+                      <in>power_clocks_lib.c</in>
+                    </df>
+                    <df name="RTC">
+                      <in>rtc.c</in>
+                    </df>
+                    <df name="SPI">
+                      <in>spi.c</in>
+                    </df>
+                    <df name="TC">
+                      <in>tc.c</in>
+                    </df>
+                    <df name="USART">
+                      <in>usart.c</in>
+                    </df>
+                  </df>
+                  <df name="SERVICES">
+                    <df name="DELAY">
+                      <in>delay.c</in>
+                    </df>
+                    <df name="LWIP">
+                      <df name="lwip-1.3.2">
+                        <df name="src">
+                          <df name="core">
+                            <df name="ipv4">
+                              <in>autoip.c</in>
+                              <in>icmp.c</in>
+                              <in>igmp.c</in>
+                              <in>inet.c</in>
+                              <in>inet_chksum.c</in>
+                              <in>ip.c</in>
+                              <in>ip_addr.c</in>
+                              <in>ip_frag.c</in>
+                            </df>
+                            <in>dhcp.c</in>
+                            <in>dns.c</in>
+                            <in>init.c</in>
+                            <in>mem.c</in>
+                            <in>memp.c</in>
+                            <in>netif.c</in>
+                            <in>pbuf.c</in>
+                            <in>raw.c</in>
+                            <in>stats.c</in>
+                            <in>tcp.c</in>
+                            <in>tcp_in.c</in>
+                            <in>tcp_out.c</in>
+                            <in>udp.c</in>
+                          </df>
+                          <df name="netif">
+                            <in>etharp.c</in>
+                            <in>loopif.c</in>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="lwip-port-1.3.2">
+                        <df name="HD">
+                          <df name="if">
+                            <df name="netif">
+                              <in>wlif.c</in>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                    <df name="MEMORY">
+                      <df name="CTRL_ACCESS">
+                        <in>ctrl_access.c</in>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="UTILS">
+                    <df name="DEBUG">
+                      <in>debug.c</in>
+                      <in>print_funcs.c</in>
+                    </df>
+                  </df>
+                </df>
+                <in>ard_spi.c</in>
+                <in>ard_tcp.c</in>
+                <in>ard_utils.c</in>
+                <in>avr32_spi.c</in>
+                <in>board_init.c</in>
+                <in>cmd_wl.c</in>
+                <in>console.c</in>
+                <in>fw_download_extflash.c</in>
+                <in>lwip_setup.c</in>
+                <in>main.c</in>
+                <in>nvram.c</in>
+                <in>owl_os.c</in>
+                <in>ping.c</in>
+                <in>printf-stdarg.c</in>
+                <in>timer.c</in>
+                <in>util.c</in>
+                <in>wl_cm.c</in>
+              </df>
+            </df>
+          </df>
+          <df name="src">
+            <df name="utility">
+              <in>server_drv.cpp</in>
+              <in>spi_drv.cpp</in>
+              <in>wifi_drv.cpp</in>
+            </df>
+            <in>WiFi.cpp</in>
+            <in>WiFiClient.cpp</in>
+            <in>WiFiServer.cpp</in>
+            <in>WiFiUdp.cpp</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <df root="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/libraries"
+        name="1">
+    </df>
+    <df root="." name="2">
+      <in>rtc.ino</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+    <Elem>/home/wolfi/Descargas/arduino-1.6.7</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f makefile</buildCommand>
+          <cleanCommand>${MAKE} -f makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/atmega/ATmegaBOOT_168.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/atmega8/ATmegaBOOT.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/bt/ATmegaBOOT_168.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/caterina-Arduino_Robot/Caterina.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/caterina-Arduino_Robot/Descriptors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/caterina-LilyPadUSB/Caterina.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/caterina-LilyPadUSB/Descriptors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/caterina/Caterina.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/caterina/Descriptors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/lilypad/src/ATmegaBOOT.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/optiboot/optiboot.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/bootloaders/stk500v2/stk500boot.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/CDC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/IPAddress.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/Print.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/Stream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/Tone.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/USBCore.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/WInterrupts.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/WMath.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/WString.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/abi.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/hooks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/new.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/wiring.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/wiring_analog.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/wiring_digital.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/wiring_pulse.S"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/wiring_pulse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/cores/arduino/wiring_shift.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/atmegaxxu2/arduino-usbdfu/Arduino-usbdfu.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/atmegaxxu2/arduino-usbdfu/Descriptors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/atmegaxxu2/arduino-usbserial/Arduino-usbserial.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/atmegaxxu2/arduino-usbserial/Descriptors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/ard_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/ard_tcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/ard_utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/avr32_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/board_init.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/cmd_wl.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/console.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/fw_download_extflash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/lwip_setup.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/main.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/nvram.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/owl_os.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/ping.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/printf-stdarg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/timer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/util.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifiHD/src/wl_cm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/clocks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/flash_fw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/nor_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/printf-stdarg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/firmwares/wifishield/wifi_dnld/src/startup.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/libraries/HID/HID.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/libraries/SPI/SPI.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/libraries/SoftwareSerial/SoftwareSerial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/libraries/Wire/Wire.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/hardware/arduino/avr/libraries/Wire/utility/twi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/BME280/BME280_MOD-1022.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Bridge/src/Bridge.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Bridge/src/BridgeClient.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Bridge/src/BridgeServer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Bridge/src/BridgeUdp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Bridge/src/Console.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Bridge/src/FileIO.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Bridge/src/HttpClient.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Bridge/src/Mailbox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Bridge/src/Process.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Esplora/src/Esplora.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Ethernet/src/Dhcp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Ethernet/src/Dns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Ethernet/src/Ethernet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Ethernet/src/EthernetClient.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Ethernet/src/EthernetServer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Ethernet/src/EthernetUdp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Ethernet/src/utility/socket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Ethernet/src/utility/w5100.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Firmata/Firmata.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Firmata/utility/EthernetClientStream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3CircularBuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileAccessProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileCellManagement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileClientProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileClientService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileDataNetworkProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileMockupProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileNetworkProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileNetworkRegistry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileSMSProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileServerProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileServerService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3MobileVoiceProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3SMSService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1AccessProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1BandManagement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1BaseProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1CellManagement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1ClientProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1DataNetworkProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1DirectModemProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1ModemCore.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1ModemVerification.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1MultiClientProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1MultiServerProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1PinManagement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1SMSProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1ScanNetworks.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1ServerProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3ShieldV1VoiceProvider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3SoftSerial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/GSM/src/GSM3VoiceCallService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Keyboard/src/Keyboard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/LiquidCrystal/src/LiquidCrystal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Mouse/src/Mouse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/OPT3001/src/Opt3001.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/RobotIRremote/src/IRremote.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/RobotIRremote/src/IRremoteTools.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/ArduinoRobot.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/Arduino_LCD.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/Compass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/EEPROM_I2C.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/EasyTransfer2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/Fat16.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/Melody.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/Motors.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/Multiplexer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/RobotSdCard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/SdCard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/Sensors.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/Squawk.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/SquawkSD.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/communication.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/glcdfont.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/helper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/information.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/keyboard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/lcd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/utility/Adafruit_GFX.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/utility/RobotTextManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Control/src/utility/VirtualKeyboard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Motor/src/ArduinoRobotMotorBoard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Motor/src/EasyTransfer2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Motor/src/Multiplexer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Robot_Motor/src/lineFollow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/SD/src/File.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/SD/src/SD.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/SD/src/utility/Sd2Card.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/SD/src/utility/SdFile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/SD/src/utility/SdVolume.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Servo/src/avr/Servo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Servo/src/sam/Servo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Servo/src/samd/Servo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/SpacebrewYun/src/SpacebrewYun.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Stepper/src/Stepper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/TFT/src/TFT.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/TFT/src/utility/Adafruit_GFX.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/TFT/src/utility/Adafruit_ST7735.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/TFT/src/utility/glcdfont.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/Temboo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/TembooCoAPEdgeDevice.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/TembooMQTTEdgeDevice.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/BaseFormatter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/ChoreoInput.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/ChoreoInputFormatter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/ChoreoInputSet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/ChoreoOutput.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/ChoreoOutputFormatter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/ChoreoOutputSet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/ChoreoPreset.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/ChoreoPresetFormatter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/CoapMessageLayer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/CoapMsg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/CoapRRLayer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/DataFormatter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTConnectClient.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTConnectServer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTDeserializePublish.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTFormat.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTPacket.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTSerializePublish.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTSubscribeClient.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTSubscribeServer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTUnsubscribeClient.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/MQTTUnsubscribeServer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/TembooCoAPSession.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/TembooGlobal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/TembooMQTTSession.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/TembooSession.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/tmbhmac.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/Temboo/src/utility/tmbmd5.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC/smc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC/eic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA/pdca.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC/rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC/tc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY/delay.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dhcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/dns.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/init.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/autoip.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/icmp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/igmp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/inet_chksum.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_addr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4/ip_frag.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/mem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/memp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/netif.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/pbuf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/raw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/stats.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_in.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/tcp_out.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/udp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/etharp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif/loopif.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif/wlif.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/ard_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/ard_tcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/ard_utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/avr32_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/board_init.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/cmd_wl.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/console.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/fw_download_extflash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/lwip_setup.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/main.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/nvram.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/owl_os.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/ping.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/printf-stdarg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/timer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/util.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifiHD/src/wl_cm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO/led.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105/led.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX/at45dbx_mem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC/flashc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO/gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/pm_conf_clocks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM/power_clocks_lib.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI/spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART/usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS/ctrl_access.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/debug.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG/print_funcs.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/clocks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/flash_fw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/nor_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/printf-stdarg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/extras/wifi_dnld/src/startup.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/src/WiFi.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/src/WiFiClient.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/src/WiFiServer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/src/WiFiUdp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/src/utility/server_drv.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/src/utility/spi_drv.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wolfi/Descargas/arduino-1.6.7/libraries/WiFi/src/utility/wifi_drv.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="rtc.ino" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
